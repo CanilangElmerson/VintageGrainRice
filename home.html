@@ -34,8 +34,6 @@
 	<!-- BOOTSTRAP JS -->
 	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
 
-	<!-- personalized JS -->
-	<script type="text/javascript" src="./assets/js/myjs.js"></script>
 
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -50,7 +48,8 @@
 	<title>Elmerson D. Canilang</title>
 </head>
 <body >
-	
+<!-- back to top -->
+	<a id="backtotop" class="animated">Back to top</a>
 	
 
 	<!-- nav bar -->
@@ -68,14 +67,14 @@
 
 					
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="./home.html">Home</a>
+						<li class="nav-item ">
+							<a class="nav-link active" href="./home.html">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="./product.html">Product</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Services</a>
+							<a class="nav-link" href="./service.html">Services</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="./about.html">About</a>
@@ -145,7 +144,7 @@
 			</div>
 			<!-- end carousel -->
 			<!-- jumbotron -->
-			<div class="row" id="home-jumbotron">
+			<div  id="home-jumbotron">
 
 				<h1 id="jumbotron-header"> Vintage Grain Rice Dealer </h1>					
 
@@ -165,123 +164,119 @@
 					<h3 class="feature-title font-weight-bold h3-section">Products</h3>
 					<hr>
 					<!-- grid row -->
-					
-						<div class="row main-container card-deck">
+					<div class="row main-container">
 
-
-							<!-- grid column -->
-							<div class="col-lg-3 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#angelica">
-								<!-- card -->
-								<div class="card ">
-									<!--Card image-->
-									<div class="view overlay">
-										<img class="card-img-top product-img img-fluid" src="./assets/img/product/angelica.jpg" alt="Card image cap">
-									</div>
-									<a href="#">
-										<div class="mask rgba-white-slight"></div>
-									</a>
-
+						
+						<!-- grid column -->
+						<div class="col-lg-2 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#angelica">
+							<!-- card -->
+							<div class="card ">
+								<!--Card image-->
+								<div class="view overlay">
+									<img class="card-img-top product-img img-fluid" src="./assets/img/product/angelica.jpg" alt="Card image cap">
 								</div>
+								<a href="#">
+									<div class="mask rgba-white-slight"></div>
+								</a>
+								
+							</div>
 
-								<!--Card content-->
-								<div class="card-body text-center" data-toggle="modal" data-target="#angelica">
-									<!--Category & Title-->
-									<a class="grey-text">
-										<h5 class="h5-section">Angelica</h5>
-									</a>
-
-								</div>
-								<!--Card content-->
+							<!--Card content-->
+							<div class="card-body text-center" data-toggle="modal" data-target="#angelica">
+								<!--Category & Title-->
+								<a class="grey-text">
+									<h5 class="h5-section">Angelica</h5>
+								</a>
 
 							</div>
-							<!-- end grid column -->
-
-
-							<!-- grid column -->
-							<div class="col-lg-3 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#jasmin">
-								<!-- card -->
-								<div class="card ">
-									<!--Card image-->
-									<div class="view overlay">
-										<img class="card-img-top product-img img-fluid" src="./assets/img/product/jasmine.png" alt="Card image cap">
-									</div>
-									<a href="#">
-										<div class="mask rgba-white-slight"></div>
-									</a>
-
-								</div>
-
-								<!--Card content-->
-								<div class="card-body text-center" data-toggle="modal" data-target="#jasmin">
-									<!--Category & Title-->
-									<a class="grey-text">
-										<h5 class="h5-section">Jasmine</h5>
-									</a>
-
-								</div>
-								<!--Card content-->
-
-							</div>
-							<!-- end grid column -->
-
-
-							<!-- grid column -->
-							<div class="col-lg-3 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#sinandomeng">
-								<!-- card -->
-								<div class="card ">
-									<!--Card image-->
-									<div class="view overlay">
-										<img class="card-img-top product-img img-fluid" src="./assets/img/product/sinandomeng.jpg" alt="Card image cap">
-									</div>
-									<a href="#">
-										<div class="mask rgba-white-slight"></div>
-									</a>
-
-								</div>
-
-								<!--Card content-->
-								<div class="card-body text-center" data-toggle="modal" data-target="#sinandomeng">
-									<!--Category & Title-->
-									<a class="grey-text">
-										<h5 class="h5-section">Sinandomeng</h5>
-									</a>
-
-								</div>
-								<!--Card content-->
-
-							</div>
-							<!-- end grid column -->
-
-							<!-- grid column -->
-							<div class="col-lg-3 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#malagkit">
-								<!-- card -->
-								<div class="card ">
-									<!--Card image-->
-									<div class="view overlay">
-										<img class="card-img-top product-img img-fluid" src="./assets/img/product/malagkit.jpg" alt="Card image cap">
-									</div>
-									<a href="#">
-										<div class="mask rgba-white-slight"></div>
-									</a>
-
-								</div>
-
-								<!--Card content-->
-								<div class="card-body text-center" data-toggle="modal" data-target="#malagkit">
-									<!--Category & Title-->
-									<a class="grey-text">
-										<h5 class="h5-section">Malagkit</h5>
-									</a>
-
-								</div>
-								<!--Card content-->
-
-							</div>
-							<!-- end grid column -->
+							<!--Card content-->
 
 						</div>
+						<!-- end grid column -->
+						
 
+						<!-- grid column -->
+						<div class="col-lg-2 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#jasmin">
+							<!-- card -->
+							<div class="card ">
+								<!--Card image-->
+								<div class="view overlay">
+									<img class="card-img-top product-img img-fluid" src="./assets/img/product/jasmine.png" alt="Card image cap">
+								</div>
+								<a href="#">
+									<div class="mask rgba-white-slight"></div>
+								</a>
+								
+							</div>
 
+							<!--Card content-->
+							<div class="card-body text-center" data-toggle="modal" data-target="#jasmin">
+								<!--Category & Title-->
+								<a class="grey-text">
+									<h5 class="h5-section">Jasmine</h5>
+								</a>
+
+							</div>
+							<!--Card content-->
+
+						</div>
+						<!-- end grid column -->
+
+						<!-- grid column -->
+						<div class="col-lg-2 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#sinandomeng">
+							<!-- card -->
+							<div class="card ">
+								<!--Card image-->
+								<div class="view overlay">
+									<img class="card-img-top product-img img-fluid" src="./assets/img/product/sinandomeng.jpg" alt="Card image cap">
+								</div>
+								<a href="#">
+									<div class="mask rgba-white-slight"></div>
+								</a>
+								
+							</div>
+
+							<!--Card content-->
+							<div class="card-body text-center" data-toggle="modal" data-target="#sinandomeng">
+								<!--Category & Title-->
+								<a class="grey-text">
+									<h5 class="h5-section">Sinandomeng</h5>
+								</a>
+
+							</div>
+							<!--Card content-->
+
+						</div>
+						<!-- end grid column -->
+
+						<!-- grid column -->
+						<div class="col-lg-2 col-md-6 col-sm-12 card-cols animated zoomIn"  data-toggle="modal" data-target="#malagkit">
+							<!-- card -->
+							<div class="card ">
+								<!--Card image-->
+								<div class="view overlay">
+									<img class="card-img-top product-img img-fluid" src="./assets/img/product/malagkit.jpg" alt="Card image cap">
+								</div>
+								<a href="#">
+									<div class="mask rgba-white-slight"></div>
+								</a>
+								
+							</div>
+
+							<!--Card content-->
+							<div class="card-body text-center" data-toggle="modal" data-target="#malagkit">
+								<!--Category & Title-->
+								<a class="grey-text">
+									<h5 class="h5-section">Malagkit</h5>
+								</a>
+
+							</div>
+							<!--Card content-->
+
+						</div>
+						<!-- end grid column -->
+
+					</div>
 
 					<a href="./product.html" role="button">
 						<button type="button" id="product-button" class="btn btn-md cmd-color" href="./product.html">
@@ -436,12 +431,12 @@
 			<!-- about -->
 			<section id="about" >
 				<hr>
-				<h3 class="feature-title font-weight-bold h3-section"">About</h3>
+				<h3 class="feature-title font-weight-bold h3-section">About</h3>
 				<hr>
 				<div class="row">
 					<div class="row col-lg-6 col-md-6 col-sm-12">
 						<h4 class="feature-title font-weight-bold h4-section">Vision</h4>
-						<p>Vintage Grain Rice Dealer envisions to be leading rice producer in the world, meeting the stringent demands of the market and serving each client with only the utmost quality of rice possible.
+						<p>Vintage Grain Rice envisions to be leading rice producer in the world, meeting the stringent demands of the market and serving each client with only the utmost quality of rice possible.
 						</p>
 					</div>
 					<div class="row col-lg-6 col-md-6 col-sm-12">
@@ -466,31 +461,100 @@
 					<div class="col-lg-4">
 						<h4 class="feature-title font-weight-bold h4-section">Contact Info</h4>
 						<hr>
-						<p>Elmerson Canilang</p>
-						<i class="fas fa-mobile">09061234567</i>
-						<br>
-						<i class="fas fa-envelope-square">canilang.elmerson@gmail.com</i>
+
+						<!-- Contact If -->
+						<!-- <div class="row col-lg-6 col-md-6 col-sm-12"> -->
+						
+						<div class="card-body">
+							
+							<!--First row-->
+							<div class="row">
+								<div class="col-2">
+									<i class="fa fa-user fa-2x prefix green-text"></i>
+								</div>
+								<div class="col-10">
+									<p class="feature-title grey-text text-left">
+										<strong>Elmerson D. Canilang</strong>
+									</p>
+
+								</div>
+							</div>
+
+
+
+							<!--Second row-->
+							<div class="row">
+								<div class="col-2">
+									<i class="fas fa-mobile fa-2x  green-text"></i>
+									<!-- <i class="fa fa-phone fa-2x  green-text"></i> -->
+								</div>
+								<div class="col-10">
+									<p class="feature-title grey-text text-left">
+										<strong>09121234567</strong>
+									</p>
+
+								</div>
+							</div>
+
+
+							<!--Third row-->
+							<div class="row">
+								<div class="col-2">
+									<i class="fa fa-envelope fa-2x green-text"></i>
+								</div>
+								<div class="col-10">
+									<p class="feature-title grey-text text-left">
+										<strong>canilang.elmerson@gmail.com</strong>
+									</p>
+
+								</div>
+							</div>
+
+
+							<!--Fourth row-->
+							<div class="row">
+								<div class="col-2">
+									<i class="fa fa-map-marker fa-2x green-text"></i>
+								</div>
+								<div class="col-10">
+									<p class="feature-title grey-text text-left">
+										<strong>Sacred Heart Cmpd. Canumay West Valenzuela City</strong>
+									</p>
+
+								</div>
+							</div>
+							<!--/Fourth row-->
+
+
+						</div>
+						<!-- </div> -->
+						<!-- End Contact Info -->
 
 					</div>
 					<div class="col-lg-4 col-md-12 col-sm-12 col2">
 						<h4 class="feature-title font-weight-bold h4-section">Social Media</h4>
 						<hr>
-						<div class="social-media">
+						<div class="card-body">
 
-							<a href="https://www.facebook.com" target="_blank" ><i id="fb" class="fab fa-facebook"></i></a>
-							<a href="https://www.instagram.com" target="_blank"><i id="instagram" class="fab fa-instagram"></i></a>
-							<a href="https://www.twitter.com" target="_blank"><i id="twitter" class="fab fa-twitter-square"></i></a>
-						</div>
-						<div class="disclaimer">
-							<p>Disclaimer: No copyright infringement intended, we do not own the content/images nor we take credit for it, we are not selling the website or making profits from it and it is used only for educational purposes.</p>
+							<div class="social-media">
+
+								<a href="https://www.facebook.com" target="_blank" ><i  class="fab fa-facebook"></i></a>
+								<a href="https://www.instagram.com" target="_blank"><i  class="fab fa-instagram"></i></a>
+								<a href="https://www.twitter.com" target="_blank"><i  class="fab fa-twitter-square"></i></a>
+							</div>
+							<div class="disclaimer">
+								<p>Disclaimer: No copyright infringement intended, we do not own the content/images nor we take credit for it, we are not selling the website or making profits from it and it is used only for educational purposes.</p>
+							</div>
 						</div>
 
 					</div>
 					<div class="col-lg-4">
 						<h4 class="feature-title font-weight-bold h4-section">Where to find me</h4>
 						<hr>
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.082537212654!2d120.98706141525616!3d14.707924289734141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b158b5455b93%3A0xf23a1694a7bd3285!2s16+Sacred+Heart+Compound%2C+Valenzuela%2C+Metro+Manila!5e0!3m2!1sfil!2sph!4v1537403986007" width="550" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="card-body">
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.082537212654!2d120.98706141525616!3d14.707924289734141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b158b5455b93%3A0xf23a1694a7bd3285!2s16+Sacred+Heart+Compound%2C+Valenzuela%2C+Metro+Manila!5e0!3m2!1sfil!2sph!4v1537403986007" width="550" height="400" frameborder="0"  allowfullscreen></iframe>
+							</div>
 						</div>
 
 					</div>
@@ -513,7 +577,7 @@
 
 	<!-- Footer -->
 	<footer>
-		<div class=" row footer-copyright py-3 mx-auto text-center">
+		<div class="footer-copyright py-3 mx-auto text-center">
 			Elmerson D. Canilang  | © 2018 Copyright
 
 		</div>
@@ -522,6 +586,10 @@
 	<!-- Footer -->
 
 
+
+
+	<!-- personalized JS -->
+	<script type="text/javascript" src="./assets/js/home.js"></script>
 
 
 </body>
