@@ -6,7 +6,7 @@
 
 nav 
 {
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Cinzel', serif;
 	
 	width:100% !important;
 	box-shadow: 0px 2px 0px #C75000;
@@ -14,6 +14,9 @@ nav
 	opacity:.8;
 	background:rgb();
 	color:black !important;
+}
+.navbar-brand{
+	font-family: 'Cinzel', serif;
 }
 
 nav:hover 
@@ -36,7 +39,7 @@ nav > div a:hover
 
 .backgroundimage
 {
-	background-image:url("../img/Green-Background.jpg") !important;
+	/*background-image:url("../img/Green-Background.jpg") !important;*/
 	height:100vh;
 	background-size: cover;
 	background:no-repeat;
@@ -44,7 +47,7 @@ nav > div a:hover
 
 .navbar
 {
-	background-color: green !important;
+	background-color:#00695c !important;
 	color:black !important;
 	position:fixed !important;
 }
@@ -65,266 +68,422 @@ nav > div a:hover
 	text-align: center;
 }
 
+/*main*/
 
-.logo-container
-{
-	margin: 0 auto;
-	text-align: center;
-	background-image:url("../img/layer-background/green-vintage-background-texture.jpg");
-	background-image:cover;
-	width:100%;
-	padding:15px 0px 15px 0px;
-}
-
-.carousel-home{
-
-	padding:2% 15% 13% 15%;
-	position:relative;
-}
-.carousel-container
-{
-	margin: 0 auto;
-	text-align: center;
-	background-image:url("../img/layer-background/b1.jpg");
-	background-image:cover;
-	width:100%;
-
-
-
-	/*padding:15px 10% 15px 10%;*/
+.container.mains{
+	background-color: #f2f2f2; /*off white*/
+	box-shadow: 0px 1px 20px 1px black;
+	margin-top: .5rem;
+	padding:2px;
 }
 .main-container
 {
-	padding:9% 2px 2px 2px;
-	background-color: transparent;
-	position:relative;
+	margin:5px;
 }
 
-.img-pad
-{
-	border:2px solid white;
-	padding:3px;
-	background-color:grey;
+.card-cols{
+	background-color: #f2f2f2; /*off white*/
+	box-shadow: 0px 1px 20px 1px black;
+
 }
 
 
-.jumbotron
-{
-	position:absolute;
-	background-color:rgba(255,255,255,.5);
-	top:40%;
-	left:50%;
-	font-family: 'Kaushan Script', cursive;
-	text-align:center;
-	transform:translate(-50%,-40%);
-
-
-}
-
-.home-jumbotron
-{
-	position:absolute;
-	background-color:rgba(255,255,255,.5);
-	top:78%;
-	left:50%;
-	font-family: 'Kaushan Script', cursive;
-	text-align:center;
-	transform:translate(-50%,-78%);
-	font-size:2px;
-	width:100%;
-
-
-}
-.carousel
-{
-	position:relative ;
-}
-
-
-/*Home*/
-#banner
-{
-	position:relative;
-	background-color:#61D095;
-	/*padding:30px;*/
-	height:100vh;
-	background-image:url("../img/layer-background/green-vintage-wood-texture-background.jpg");
-	background-image:cover;
-	width:100%;
-	padding-top:5%;
-	box-shadow: 2px 3px grey;
-
-}
-#product
-{
-	background-color:#3C6E71;/* orange;*/
-	height:400px;
-	padding:30px;
-}
-
-#services
-{
-	background-color:#439775;/*crimson;*/
-	min-height:300px;
-	padding:30px;
-
-}
-
-#about{
-	background-color:#515A47; /*indianred*/
-	min-height:300px;
-	padding:30px;
-	
-}
-
-#contact{
-	background-color:#61D095;
-	padding:30px;
-	height:30px;
-
-}
-
-#mylogo
-{
-	margin:2px;
-}
-h2{
-	color:white;
-}
-
-.body-container{
-	margin:0 auto;
-	width:80%;
-	border:1px solid #f2f2f2; /*off white*/
-}
-/*Home*/
 
 
 
-/*Tablet*/
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-	nav:hover 
-	{
-		opacity:1;
-	}
-
-	nav > div a:hover 
-	{
-		border-bottom:1px solid orange !important;
-		color:orange !important;
-	}
-	#banner
+	#view-banner
 	{
 		position:relative;
 		background-color:#61D095;
-		/*padding:30px;*/
-		height:100vh;
-		background-image:url("../img/layer-background/green-vintage-wood-texture-background.jpg");
+		background-image:url("../img/layer-background/b1.jpg");
 		background-image:cover;
 		width:100%;
-		padding-top:9%;
-
-
-	}
-
-	.jumbotron
-	{
-		padding:5px;
-		position:absolute;
-		background-color:rgba(255,255,255,.5);
-		top:110%;
-		left:50%;
-		font-family: 'Kaushan Script', cursive;
+		padding-top:5% ;
 		text-align:center;
-		transform:translate(-50%,0%);
-		width:80%;
-	}
-	.btn-lg
-	{
-		padding: 10px 10px;
-		font-size: 15px;
-		border-radius: 8px;
-	}
 
 
-	.main-container
-	{
-		padding:20% 2px 2px 2px;
-		background-color: transparent;
-		position:relative;
 	}
-	.home-jumbotron
+	.banner-container{
+
+		margin:0 auto;
+		height:100%;
+
+
+	}
+	.logo-container
 	{
-		position:absolute;
-		background-color:rgba(255,255,255,.5);
-		top:90%;
-		left:50%;
-		font-family: 'Kaushan Script', cursive;
-		text-align:center;
-		transform:translate(-50%,-90%);
-		font-size:1px;
+		margin: 0 auto;
+		text-align: center;
+		background-image:url("../img/layer-background/b1.jpg");
+		background-image:cover;
 		width:100%;
 
-
-	}
-	#jumbotron-header{
-		font-size:30px;
 	}
 
-
-}
-
-/*Mobile*/
-
-@media only screen and (max-width: 480px) {
-
-	nav:hover 
+	.carousel-container
 	{
-		opacity:1;
+		margin: 0 auto;
+		text-align: center;
+		background-image:url("../img/layer-background/b1.jpg");
+		background-image:cover;
+		width:100%;
+		padding-top:3% ;
+		
 	}
 
-	nav > div a:hover 
+	
+
+	.img-pad
 	{
-		border-bottom:1px solid orange !important;
-		color:orange !important;
+		border:2px solid white;
+		padding:3px;
+		background-color:grey;
 	}
 
-	#myHeader 
-	{
-		font-size:25px;
-	}
-	#myPar 
-	{
-		font-size:8px;
-	}
 
 	.jumbotron
 	{
-		padding:5px;
 		position:absolute;
 		background-color:rgba(255,255,255,.5);
-		top:110%;
+		top:40%;
 		left:50%;
-		font-family: 'Kaushan Script', cursive;
+		font-family: 'Cinzel', serif;
 		text-align:center;
-		transform:translate(-50%,0%);
-		width:80%;
+		transform:translate(-50%,-40%);
+		color:black;
+
+
 	}
-	.btn-lg
+
+	#home-jumbotron
 	{
-		padding: 10px 10px;
-		font-size: 10px;
-		border-radius: 8px;
+		
+		background-color:rgba(255,255,255,.5);
+		font-family: 'Cinzel', serif;
+		text-align:center;
+		margin-top:1%;
+		font-size:2px;
+		color:#00A676;
+		/*width:100%;*/
+
+
 	}
 
-	.main-container
+	.carousel
 	{
-		padding:20% 2px 2px 2px;
-		background-color: transparent;
-		position:relative;
+		position:relative ;
 	}
 
 
+	/*Home*/
+
+
+
+	#product
+	{
+		/*background-color:#3C6E71;/* orange;*/*/
+		height:100%;
+		background-color:rgba(255,255,255,0);
+
+	}
+	
+
+	#product-button{
+/*background-color: #59698d !important; */
+		text-align:center;
+		margin:6px auto;
+	}
+
+	.cmd-color {
+  background-color: #306B34; 
+  color: #f2f2f2; /*off white*/
 }
+
+	.product-row{
+		margin:0 auto;
+		text-align:center;
+		padding:0 5px;
+		color:black;
+
+	}
+	.product-col{
+		padding-top:5px;
+		margin:0 auto;
+		text-align:center;
+		background-color:rgba(255,255,255,0);
+		border-radius:10px;
+
+	}
+	.product-col:hover{
+		background-color:rgba(255,255,255,1);
+		color:black;
+	}
+	.product-img{
+		height:200px;
+		border-radius:2px;
+		padding-top:4px;
+		margin-top:4px !important;
+	}
+
+
+	.overlay .mask {
+		opacity: 0;
+		-webkit-transition: all 0.4s ease-in-out;
+		-o-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out; 
+	}
+	.overlay .mask:hover {
+		opacity: 1; }
+
+
+		#about{
+
+			background-color:transparent; /*indianred*/
+			padding:30px;
+			color:#0B0A0B;
+
+		}
+
+		#contact{
+
+			padding:15px;
+
+			margin:0 auto;
+			text-align:center;
+			color:#0B0A0B;
+			background-color:transparent;
+		}
+		.contact-row{
+			margin:0 auto;
+			text-align:center;
+			padding:0 5px;
+			/*color:#f2f2f2;*/
+		}
+		#fb{
+			color:blue;
+		}
+
+		#instagram{
+			color:blue;
+		}
+		#twitter{
+			color:blue;
+		}
+
+
+
+
+		.body-container{
+			margin:0 auto;
+			width:78%;
+			border:1px solid #f2f2f2; /*off white*/
+			background-color:rgba(255,255,255,.5);
+			font-family: 'Kaushan Script', cursive;
+
+
+		}
+	/*body{
+		background-image:url("../img/layer-background/b1.jpg");
+
+		}*/
+		/*Home*/
+
+/*.white-background{
+	background-color:white;
+	}*/
+	.modal-title{
+		color:#77AD78;
+		font-family: 'Cinzel', serif;
+	}
+	
+	.h3-section{
+		color:#77AD78;
+		font-family: 'Cinzel', serif;
+	}
+
+	.green-text{
+		color:#77AD78;
+	
+	}
+	.h4-section{
+		/*color:#77AD78;*/
+		font-family: 'Cinzel', serif;
+	}
+	.h5-section{
+		font-family: 'Cinzel', serif;
+	}
+
+	
+	#jumbotron-header{
+		text-align:center;
+	}
+
+	/*************************************/
+	/*footer*/
+	.fab{
+		font-size: 50px;
+		/*color:white;
+		text-shadow: 4px 4px 5px #2F5D2A;*/
+		margin:0 3px;
+		border-radius:10px;
+		text-align:center;
+	}
+	.fab:hover{
+		color:blue;
+	}
+	.fab.visited{
+		color:red;
+
+	}
+	iframe{
+		padding-bottom:10px;
+	}
+	.disclaimer{
+		padding-top:10px;
+	}
+	footer{
+		background-color:#00695c;
+		text-align:center !important;
+		color:#f2f2f2; /*off white*/
+		margin-top:5px;
+		font-family: 'Cinzel', serif;
+		border-top:2px solid #C75000;
+
+	}
+
+	/**************************************/
+
+	/*Tablet*/
+
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+		nav:hover 
+		{
+			opacity:1;
+		}
+
+		nav > div a:hover 
+		{
+			border-bottom:1px solid orange !important;
+			color:orange !important;
+		}
+		#banner
+		{
+			position:relative;
+			background-color:#61D095;
+			/*padding:30px;*/
+			height:100vh;
+			background-image:url("../img/layer-background/green-vintage-wood-texture-background.jpg");
+			background-image:cover;
+			width:100%;
+			padding-top:9%;
+			box-sizing:content-box;
+
+
+		}
+
+		.jumbotron
+		{
+			padding:5px;
+			position:absolute;
+			background-color:rgba(255,255,255,.5);
+			top:110%;
+			left:50%;
+			font-family: 'Kaushan Script', cursive;
+			text-align:center;
+			transform:translate(-50%,0%);
+			width:80%;
+		}
+		.btn-lg
+		{
+			padding: 10px 10px;
+			font-size: 15px;
+			border-radius: 8px;
+		}
+
+
+		.main-container
+		{
+			padding:20% 2px 2px 2px;
+			background-color: transparent;
+			position:relative;
+		}
+		.home-jumbotron
+		{
+			position:absolute;
+			background-color:rgba(255,255,255,.5);
+			top:90%;
+			left:50%;
+			font-family: 'Kaushan Script', cursive;
+			text-align:center;
+			transform:translate(-50%,-90%);
+			font-size:1px;
+			width:100%;
+
+
+		}
+		#jumbotron-header{
+			font-size:30px;
+		}
+
+
+
+
+	}
+
+	/*Mobile*/
+
+	@media only screen and (max-width: 480px) {
+		*{
+			padding:0;
+			margin:0;
+			box-sizing:border-box;
+		}
+		nav:hover 
+		{
+			opacity:1;
+		}
+
+		nav > div a:hover 
+		{
+			border-bottom:1px solid orange !important;
+			color:orange !important;
+		}
+
+		#myHeader 
+		{
+			font-size:25px;
+		}
+		#myPar 
+		{
+			font-size:8px;
+		}
+
+		.jumbotron
+		{
+			padding:5px;
+			position:absolute;
+			background-color:rgba(255,255,255,.5);
+			top:110%;
+			left:50%;
+			font-family: 'Kaushan Script', cursive;
+			text-align:center;
+			transform:translate(-50%,0%);
+			width:80%;
+		}
+		.btn-lg
+		{
+			padding: 10px 10px;
+			font-size: 10px;
+			border-radius: 8px;
+		}
+
+		/*.main-container
+		{
+			padding:20% 2px 2px 2px;
+			background-color: transparent;
+			position:relative;
+			}*/
+
+
+		}
